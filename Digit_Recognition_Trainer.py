@@ -6,7 +6,6 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 
 import tensorflow
-import pillow
 import numpy
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()# the data, split between train and test sets
